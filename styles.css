@@ -1,0 +1,38 @@
+body{
+    font-family: monospace;
+    background-color: #D3DEDC;
+    color: #313552;
+}
+
+h2{
+  font-size: 4rem;
+}
+
+
+.begin{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* middle container part */
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-gap: 10%;
+}
+.grid-container>div:first-child{
+  text-align: right;
+}
+
+/* button */
+.button{
+  text-align: center;
+}
+
+.btn{
+  font-size: 30px;
+  background-color: #7C99AC;
+  margin-top: 2%;
+}
